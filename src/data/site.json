@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "Provence Closets",
+    "phone": "+1 (954) 770-1870",
+    "email": "info@provenceclosets.com",
+    "whatsapp": "19547701870",
+    "address": "NE 149th street, North Miami, Flórida 33181",
+    "businessHours": "Mon-Fri 8AM-6PM, Sat 10AM-4PM"
+  },
+  "hero": {
+    "title": "Luxury Custom Closets Designed For Your Lifestyle",
+    "subtitle": "Premium storage solutions tailored for your home. Experience the art of organization with Florida's most distinguished design firm.",
+    "cta": "Schedule Free Consultation"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/provenceclosets/",
+    "facebook": "https://facebook.com/provenceclosets",
+    "linkedin": ""
+  },
+  "seo": {
+    "defaultTitle": "Provence Closets | Luxury Custom Closets & Storage Solutions",
+    "defaultDescription": "Premium custom closets, garage cabinets, and home storage solutions in Southern Florida. Transform your space with our luxury modern designs.",
+    "keywords": ["custom closets", "luxury closets", "garage cabinets", "home organization", "closet design", "Newport Beach closets"]
+  }
+}

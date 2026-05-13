@@ -1,0 +1,20 @@
+[
+  {
+    "city": "Newport Beach",
+    "slug": "newport-beach",
+    "description": "Providing luxury storage solutions for the coastal homes of Newport Beach and Corona Del Mar.",
+    "neighborhoods": ["Pelican Hill", "Corona Del Mar", "Balboa Island", "Newport Coast"]
+  },
+  {
+    "city": "Beverly Hills",
+    "slug": "beverly-hills",
+    "description": "Elite custom closet designs for the most prestigious estates in 90210.",
+    "neighborhoods": ["Trousdale Estates", "The Flats", "Benedict Canyon"]
+  },
+  {
+    "city": "Laguna Beach",
+    "slug": "laguna-beach",
+    "description": "Artistic and functional storage solutions for artistic coastal living.",
+    "neighborhoods": ["Emerald Bay", "Three Arch Bay", "Laguna Village"]
+  }
+]
