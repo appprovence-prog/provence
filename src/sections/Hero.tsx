@@ -63,17 +63,25 @@ export const Hero = () => {
                 <Button variant="outline" className="w-full" onClick={() => setStatus('idle')}>New Request</Button>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form action="https://splitforms.com/api/submit"
+  method="POST" className="space-y-5">
+    <input
+  type="hidden"
+  name="access_key"
+  value="da156ff4669e40389c6a45741d634cc4"
+/>
+
+                
                 <div className="text-center mb-8">
                   <h2 className="text-2xl font-serif mb-2">Free Consultation</h2>
                   <p className="text-xs uppercase tracking-widest text-brand-charcoal/60 font-bold">Transform your space today</p>
                 </div>
                 
                 <div className="space-y-4">
-                  <input required placeholder="Your Name" className="w-full bg-white/50 border border-brand-charcoal/10 px-4 py-3 text-sm focus:border-brand-gold outline-none transition-colors" />
-                    <input required placeholder="E-mail" className="w-full bg-white/50 border border-brand-charcoal/10 px-4 py-3 text-sm focus:border-brand-gold outline-none transition-colors" />
-                  <input required type="tel" placeholder="Phone Number" className="w-full bg-white/50 border border-brand-charcoal/10 px-4 py-3 text-sm focus:border-brand-gold outline-none transition-colors" />
-                  <select className="w-full bg-white/50 border border-brand-charcoal/10 px-4 py-3 text-sm focus:border-brand-gold outline-none transition-colors appearance-none">
+                  <input required placeholder="Your Name" name="name" className="w-full bg-white/50 border border-brand-charcoal/10 px-4 py-3 text-sm focus:border-brand-gold outline-none transition-colors" />
+                    <input required placeholder="E-mail" name="email" className="w-full bg-white/50 border border-brand-charcoal/10 px-4 py-3 text-sm focus:border-brand-gold outline-none transition-colors" />
+                  <input required type="tel" placeholder="Phone Number" name="phone" className="w-full bg-white/50 border border-brand-charcoal/10 px-4 py-3 text-sm focus:border-brand-gold outline-none transition-colors" />
+                  <select className="w-full bg-white/50 border border-brand-charcoal/10 px-4 py-3 text-sm focus:border-brand-gold outline-none transition-colors appearance-none" name="inquiry">
                      <option>Schedule a Showroom Visit</option>
                     <option>Request a Catalog</option>
                     <option>Get a Quote</option>

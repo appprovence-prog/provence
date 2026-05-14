@@ -166,7 +166,14 @@ export const Contact = () => {
 
               ) : (
 
-                <form onSubmit={handleSubmit} className="space-y-8">
+                <form  action="https://splitforms.com/api/submit"
+  method="POST"
+  className="space-y-8">
+    <input
+  type="hidden"
+  name="access_key"
+  value="da156ff4669e40389c6a45741d634cc4"
+/>
 
                   {/* HEADER */}
                   <div className="mb-10">
@@ -191,6 +198,7 @@ export const Contact = () => {
                     <input
                       required
                       type="text"
+                      name="name"
                       placeholder="Your full name"
                       className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 focus:border-brand-gold placeholder:text-brand-charcoal/30"
                     />
@@ -207,6 +215,7 @@ export const Contact = () => {
                     <input
                       required
                       type="tel"
+                      name="phone"
                       placeholder="(000) 000-0000"
                       className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 focus:border-brand-gold placeholder:text-brand-charcoal/30"
                     />
@@ -223,6 +232,7 @@ export const Contact = () => {
                     <input
                       required
                       type="email"
+                      name="email"
                       placeholder="you@email.com"
                       className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 focus:border-brand-gold placeholder:text-brand-charcoal/30"
                     />
@@ -237,7 +247,7 @@ export const Contact = () => {
                     </label>
 
                     <select
-                      className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 appearance-none focus:border-brand-gold"
+                      className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 appearance-none focus:border-brand-gold" name="inquiry"
                     >
                       <option>Schedule a Showroom Visit</option>
                       <option>Request a Catalog</option>
@@ -256,6 +266,7 @@ export const Contact = () => {
 
                     <textarea
                       rows={5}
+                      name="message"
                       placeholder="Tell us about your project..."
                       className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 resize-none focus:border-brand-gold placeholder:text-brand-charcoal/30"
                     />

@@ -126,7 +126,14 @@ export const ContactForm = () => {
               </motion.div>
             ) : (
 
-              <form onSubmit={handleSubmit} className="space-y-8">
+                <form  action="https://splitforms.com/api/submit"
+  method="POST"
+  className="space-y-8">
+    <input
+  type="hidden"
+  name="access_key"
+  value="da156ff4669e40389c6a45741d634cc4"
+/>
 
                 {/* NAME */}
                 <div className="space-y-2">
@@ -135,6 +142,7 @@ export const ContactForm = () => {
                   </label>
 
                   <input
+                  name="name"
                     required
                     type="text"
                     placeholder="Your full name"
@@ -150,6 +158,7 @@ export const ContactForm = () => {
 
                   <input
                     required
+                    name="email"
                     type="email"
                     placeholder="you@email.com"
                     className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 focus:border-brand-gold placeholder:text-brand-charcoal/30"
@@ -165,6 +174,7 @@ export const ContactForm = () => {
                   <input
                     required
                     type="tel"
+                    name="phone"
                     placeholder="(000) 000-0000"
                     className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 focus:border-brand-gold placeholder:text-brand-charcoal/30"
                   />
@@ -177,7 +187,7 @@ export const ContactForm = () => {
                   </label>
 
                   <select
-                    className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 appearance-none focus:border-brand-gold"
+                    className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 appearance-none focus:border-brand-gold" name="inquiry"
                   >
                     <option>Schedule a Showroom Visit</option>
                     <option>Request a Catalog</option>
@@ -193,6 +203,7 @@ export const ContactForm = () => {
                   </label>
 
                   <textarea
+                  name="message"
                     rows={4}
                     placeholder="Tell us a little about your project..."
                     className="w-full bg-transparent border-b border-brand-charcoal/20 py-4 outline-none transition-all duration-300 resize-none focus:border-brand-gold placeholder:text-brand-charcoal/30"
