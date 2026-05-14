@@ -7,42 +7,42 @@ const galleryItems = [
     id: 1,
     title: 'Total Luxury Closets',
     category: 'Closets',
-    image: 'src/assets/img/closet-1400x1000-1-768x549.webp',
+    image: 'img/closet-1400x1000-1-768x549.webp',
   },
 
   {
     id: 2,
     title: 'Luxury Kitchens',
     category: 'Kitchens',
-    image: 'src/assets/img/01-10-1400x1000-1-1024x731.webp',
+    image: 'img/01-10-1400x1000-1-1024x731.webp',
   },
 
   {
     id: 3,
     title: 'Multifunctional Home Office',
     category: 'Offices',
-    image: 'src/assets/img/01-4-1400x1000-1-1024x731.webp',
+    image: 'img/01-4-1400x1000-1-1024x731.webp',
   },
 
   {
     id: 4,
     title: 'Luxury Rooms',
     category: 'Rooms',
-    image: 'src/assets/img/loft-dormitorio-2022-1400x1000-1-768x549.webp',
+    image: 'img/loft-dormitorio-2022-1400x1000-1-768x549.webp',
   },
 
   {
     id: 5,
     title: 'Modern Walk-in Closet',
     category: 'Closets',
-    image: 'src/assets/img/closet-1400x1000-1-768x549.webp',
+    image: 'img/closet-1400x1000-1-768x549.webp',
   },
 
   {
     id: 6,
     title: 'Contemporary Luxury Interior',
     category: 'Luxury Living',
-    image: 'src/assets/img/Mask-group-1.webp',
+    image: 'img/Mask-group-1.webp',
   },
 ];
 
