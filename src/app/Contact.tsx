@@ -120,7 +120,7 @@ export const Contact = () => {
               <div className="mt-20 relative overflow-hidden">
 
                 <img
-                  src="src/assets/img/01-10-1400x1000-1-1024x731.webp"
+                  src="img/01-10-1400x1000-1-1024x731.webp"
                   alt="Luxury Interior"
                   className="w-full h-[500px] object-cover grayscale"
                 />

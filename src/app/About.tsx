@@ -13,7 +13,7 @@ export const About = () => {
             <FadeIn>
               <div className="relative aspect-square">
                 <img 
-                  src="src/assets/img/01-10-1400x1000-1-1024x731.webp" 
+                  src="img/01-10-1400x1000-1-1024x731.webp" 
                   alt="Our Craftsmanship" 
                   className="w-full h-full object-cover grayscale"
                 />

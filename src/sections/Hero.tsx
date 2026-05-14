@@ -22,7 +22,7 @@ export const Hero = () => {
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 10, ease: "linear" }}
-          src="src/assets/img/Mask-group-1.webp"
+          src="img/Mask-group-1.webp"
           alt="Luxury Custom Closet"
           className="w-full h-full object-cover"
         />

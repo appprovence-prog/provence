@@ -5,7 +5,7 @@
     "description": "Bespoke luxury closet systems designed to elevate organization, elegance, and daily living.",
     "longDescription": "Our luxury closets are crafted to combine functionality with timeless sophistication. Featuring premium finishes, integrated LED lighting, custom shelving, glass displays, and soft-close storage solutions tailored to your lifestyle.",
     "icon": "Closet",
-    "image": "src/assets/img/closet-1400x1000-1-768x549.webp",
+    "image": "img/closet-1400x1000-1-768x549.webp",
     "features": [
       "Integrated LED Lighting",
       "Soft-close Drawers",
@@ -19,7 +19,7 @@
     "description": "Modern custom kitchens combining high-end craftsmanship with intelligent functionality.",
     "longDescription": "Designed for both entertaining and everyday living, our luxury kitchens feature premium cabinetry, hidden storage solutions, oversized islands, and sophisticated finishes that create a refined culinary experience.",
     "icon": "ChefHat",
-    "image": "src/assets/img/01-10-1400x1000-1-1024x731.webp",
+    "image": "img/01-10-1400x1000-1-1024x731.webp",
     "features": [
       "Custom Cabinetry",
       "Hidden Storage Solutions",
@@ -33,7 +33,7 @@
     "description": "Elegant and adaptable workspaces designed for productivity, meetings, and modern living.",
     "longDescription": "Our multifunctional office designs seamlessly blend workspace efficiency with luxury aesthetics. From custom built-ins to hidden storage and integrated technology, every detail is designed to optimize your environment.",
     "icon": "Briefcase",
-    "image": "src/assets/img/01-4-1400x1000-1-1024x731.webp",
+    "image": "img/01-4-1400x1000-1-1024x731.webp",
     "features": [
       "Custom Built-in Desks",
       "Integrated Cable Management",
@@ -47,7 +47,7 @@
   "description": "Custom-designed luxury living spaces crafted for comfort, elegance, and functionality.",
   "longDescription": "From sophisticated entertainment rooms to refined guest suites and personalized living spaces, we create fully customized interiors that blend premium materials, smart storage solutions, and timeless design aesthetics.",
   "icon": "Bed",
-  "image": "src/assets/img/loft-dormitorio-2022-1400x1000-1-768x549.webp",
+  "image": "img/loft-dormitorio-2022-1400x1000-1-768x549.webp",
   "features": [
     "Custom Wall Panels",
     "Integrated Storage Solutions",
